@@ -16,3 +16,4 @@ if ! command -v flutter &> /dev/null; then
   wget "$FLUTTER_SDK_URL"
   tar xf "flutter_linux_2.5.2-stable.tar.xz"
   export PATH="$PATH:`pwd`/flutter/bin"
+fi
