@@ -27,7 +27,7 @@ jobs:
       - name: Set up Flutter
         uses: subosito/flutter-action@v2 # Use the latest version (check for updates)
         with:
-          flutter-version: '2.0.0'
+          flutter-version: '3.0.4'
           channel: 'stable' # Replace with your desired Flutter version
 
       - name: Build APK
