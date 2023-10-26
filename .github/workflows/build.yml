@@ -42,8 +42,6 @@ jobs:
           flutter doctor -v
           flutter doctor
           rm pubspec.lock
-          flutter channel beta
-          flutter upgrade
           flutter analyze
           flutter pub upgrade
           flutter build apk --release --verbose

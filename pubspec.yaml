@@ -24,7 +24,7 @@ dependencies:
   flutter_inapp_purchase:
     git:
       url: https://github.com/nizwar/flutter_inapp_purchase.git
-  google_fonts: ^3.0.1
+  google_fonts: ^4.0.4
   google_mobile_ads: ^2.3.0
   in_app_update: ^4.0.1
   lottie: ^2.0.0
