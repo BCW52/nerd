@@ -59,21 +59,21 @@ class IpDetailWidget extends StatelessWidget {
                   context,
                   "Ip Address",
                   ipDetail?.yourFuckingIpAddress ?? "N/A",
-                  valueLead: Icon(Icons.network_wifi, size: 20, color: textTheme(context).bodyText1!.color),
+                  valueLead: Icon(Icons.network_wifi, size: 20, color: textTheme(context).bodyLarge!.color),
                 ),
                 const ColumnDivider(),
                 detail(
                   context,
                   "Hostname",
                   ipDetail?.yourFuckingHostname ?? "N/A",
-                  valueLead: Icon(Icons.golf_course_outlined, size: 20, color: textTheme(context).bodyText1!.color),
+                  valueLead: Icon(Icons.golf_course_outlined, size: 20, color: textTheme(context).bodyLarge!.color),
                 ),
                 const ColumnDivider(),
                 detail(
                   context,
                   "ISP",
                   ipDetail?.yourFuckingIsp ?? "N/A",
-                  valueLead: Icon(Icons.business, size: 20, color: textTheme(context).bodyText1!.color),
+                  valueLead: Icon(Icons.business, size: 20, color: textTheme(context).bodyLarge!.color),
                 ),
               ],
             ),
@@ -104,7 +104,7 @@ class IpDetailWidget extends StatelessWidget {
       mainAxisSize: MainAxisSize.min,
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        Text(title, style: textTheme(context).caption),
+        Text(title, style: textTheme(context).bodySmall),
         const ColumnDivider(space: 5),
         SizedBox(
           child: Row(

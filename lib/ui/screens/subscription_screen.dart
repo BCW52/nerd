@@ -49,7 +49,7 @@ class _SubscriptionScreenState extends State<SubscriptionScreen> {
                       Text(
                         "subscription_title",
                         textAlign: TextAlign.center,
-                        style: Theme.of(context).textTheme.headline6!.copyWith(color: Colors.white),
+                        style: Theme.of(context).textTheme.titleLarge!.copyWith(color: Colors.white),
                       ).tr(),
                       const ColumnDivider(),
                       LottieBuilder.asset("assets/animations/crown_pro.json", width: 100, height: 100),
@@ -57,7 +57,7 @@ class _SubscriptionScreenState extends State<SubscriptionScreen> {
                       Text(
                         "subscription_description",
                         textAlign: TextAlign.center,
-                        style: Theme.of(context).textTheme.caption!.copyWith(color: Colors.grey.shade300),
+                        style: Theme.of(context).textTheme.bodySmall!.copyWith(color: Colors.grey.shade300),
                       ).tr(),
                       const ColumnDivider(space: 20),
                       ...value.productItems.map((e) => _subsButton(value, e)).toList(),

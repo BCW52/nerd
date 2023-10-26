@@ -1,16 +1,20 @@
-# nerdvpn_6
+# Nerdvpn V6.0.2
+Docs & Instructions : https://laskarmedia.gitbook.io/nerdvpn/
 
-A new Flutter project.
+## [New Update]
+* Fix all Text Theme's deprecated issues
+* Update all dependencies
+* Fix VPN might not connected with playstore version
 
-## Getting Started
+## [v6.0.1]
+* Fix servers didn’t show if servers didn’t contain UDP and TCP
+* Fix disconnect button didn’t work
 
-This project is a starting point for a Flutter application.
+## [v6.0.0]
+* NerdVPN Rewrite
+* Play Billing 5, trial supported
+* Light & Dark Theme mode
+* New UI and More Feature
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Note : This version might be unstable

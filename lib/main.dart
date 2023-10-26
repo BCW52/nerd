@@ -15,7 +15,7 @@ import 'core/resources/environment.dart';
 
 main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp().catchError((_) {});
+  await Firebase.initializeApp();
   await Future.wait([
     CountryCodes.init(),
     EasyLocalization.ensureInitialized(),

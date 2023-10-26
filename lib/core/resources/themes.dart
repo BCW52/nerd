@@ -2,8 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:nerdvpn/core/resources/colors.dart';
 
 ThemeData get lightTheme => ThemeData.light().copyWith(
-      primaryColor: primaryColor,
-      backgroundColor: backgroundLight,
+      primaryColor: primaryColor, 
       scaffoldBackgroundColor: backgroundLight,
       appBarTheme: const AppBarTheme(
         centerTitle: true,
@@ -23,8 +22,7 @@ ThemeData get lightTheme => ThemeData.light().copyWith(
     );
 
 ThemeData get darkTheme => ThemeData.dark().copyWith(
-      primaryColor: primaryColor,
-      backgroundColor: backgroundDark,
+      primaryColor: primaryColor, 
       scaffoldBackgroundColor: backgroundDark,
       radioTheme: RadioThemeData(
         fillColor: MaterialStateProperty.all(primaryColor),

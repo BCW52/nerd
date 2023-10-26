@@ -25,14 +25,14 @@ class AboutScreen extends StatelessWidget {
             const ColumnDivider(space: 20),
             Text(
               appName,
-              style: Theme.of(context).textTheme.headline5!.copyWith(color: primaryColor, fontWeight: FontWeight.bold),
+              style: Theme.of(context).textTheme.headlineSmall!.copyWith(color: primaryColor, fontWeight: FontWeight.bold),
               textAlign: TextAlign.center,
             ),
             FutureBuilder<PackageInfo>(
               future: PackageInfo.fromPlatform(),
               builder: (context, snapshot) {
                 if (snapshot.hasData) {
-                  return Text("version", textAlign: TextAlign.center, style: Theme.of(context).textTheme.caption!.copyWith(fontWeight: FontWeight.bold)).tr(args: [snapshot.data!.version]);
+                  return Text("version", textAlign: TextAlign.center, style: Theme.of(context).textTheme.bodySmall!.copyWith(fontWeight: FontWeight.bold)).tr(args: [snapshot.data!.version]);
                 } else {
                   return const SizedBox.shrink();
                 }

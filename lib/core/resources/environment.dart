@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 //TODO: Put your endpoint and vpn auth here
-const String endpoint = "https://nerd-vpn.laskarmedia.id/api/";
+const String endpoint = "https://replace_with_your_domain/api/"; //Please see the pattern, it must end with /
 const String vpnUsername = "";
 const String vpnPassword = "";
 const bool certificateVerify = true; //Turn it on if you use certificate
@@ -26,7 +26,7 @@ const bool showSignalStrength = true;
 const bool cacheServerList = true;
 
 //TODO: iOS setup
-const String providerBundleIdentifier = "com.nerdvpn.vpn";
+const String providerBundleIdentifier = "com.nerdvpn.vpn"; //Before it was VpnExtensionIdentifier
 const String groupIdentifier = "group.com.nerdvpn.nerdvpn";
 const String iosAppID = "1234567890";
 const String localizationDescription = "Nerd VPN - Fast & Secure VPN";
@@ -48,13 +48,7 @@ const String interstitialRewardAdUnitID = "ca-app-pub-3940256099942544/535404637
 const String openAdUnitID = "ca-app-pub-3940256099942544/3419835294";
 
 ///TODO: Set your custom subscription identifier here
-const Map<String, Map<String, dynamic>> subscriptionIdentifier = {
-  // "one_week_subs": { //This is your subscription id
-  //   "name": "One Week Subscription", //This is your subscription name
-  //   "duration": Duration(days: 7), //This is your subscription duration
-  //   "grace_period": Duration(days: 1), //This is your subscription grace period
-  //   "featured": false, //This is your subscription if it featured or not
-  // },
+const Map<String, Map<String, dynamic>> subscriptionIdentifier = { 
   "one_week_subs": {
     "name": "One Week Subscription", //This is your subscription name
     "duration": Duration(days: 7), //This is your subscription duration

@@ -12,9 +12,9 @@ abstract class HttpConnection {
 
   final Dio _dio = Dio(BaseOptions(
     baseUrl: endpoint,
-    sendTimeout: 20000,
-    connectTimeout: 20000,
-    receiveTimeout: 20000,
+    sendTimeout: const Duration(seconds: 20),
+    connectTimeout: const Duration(seconds: 20),
+    receiveTimeout: const Duration(seconds: 20),
     maxRedirects: 5,
   ));
 

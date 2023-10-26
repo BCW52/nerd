@@ -48,13 +48,13 @@ class _MainScreenState extends State<MainScreen> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              Text("settings", style: Theme.of(context).textTheme.caption).tr(),
+              Text("settings", style: Theme.of(context).textTheme.bodySmall).tr(),
               const Divider(),
               ListTile(leading: const Icon(Icons.color_lens), title: const Text('theme_mode').tr(), onTap: () => ThemeProvider.read(context).changeThemeMode(context)),
               ListTile(leading: const Icon(Icons.language), title: const Text('language').tr(), onTap: () => ThemeProvider.read(context).changeLanguage(context)),
               ListTile(leading: const Icon(Icons.update), title: const Text('check_update').tr(), onTap: () => _checkUpdate()),
               const ColumnDivider(space: 20),
-              Text("about_us", style: Theme.of(context).textTheme.caption).tr(),
+              Text("about_us", style: Theme.of(context).textTheme.bodySmall).tr(),
               const Divider(),
               ListTile(
                   leading: const Icon(Icons.privacy_tip),
@@ -103,7 +103,7 @@ class _MainScreenState extends State<MainScreen> {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         mainAxisSize: MainAxisSize.min,
         children: [
-          Text("select_vpn_server".tr(), style: Theme.of(context).textTheme.caption),
+          Text("select_vpn_server".tr(), style: Theme.of(context).textTheme.bodySmall),
           const ColumnDivider(space: 5),
           CupertinoButton(
             padding: EdgeInsets.zero,
@@ -136,7 +136,7 @@ class _MainScreenState extends State<MainScreen> {
                               : Image.asset("icons/flags/png/${config.flag}.png", package: "country_icons"),
                         ),
                       const SizedBox(width: 10),
-                      Text(config?.name ?? 'select_server'.tr(), style: Theme.of(context).textTheme.bodyText1),
+                      Text(config?.name ?? 'select_server'.tr(), style: Theme.of(context).textTheme.bodyLarge),
                       const Spacer(),
                       const Icon(Icons.chevron_right),
                       const SizedBox(width: 10),
@@ -258,7 +258,7 @@ class _MainScreenState extends State<MainScreen> {
         child: Stack(
           alignment: Alignment.center,
           children: [
-            Center(child: Text(appName, style: textTheme(context).headline6, textAlign: TextAlign.center)),
+            Center(child: Text(appName, style: textTheme(context).titleLarge, textAlign: TextAlign.center)),
             Positioned(left: 0, child: IconButton(onPressed: _menuClick, icon: const Icon(Icons.menu))),
             Positioned(
               right: 0,

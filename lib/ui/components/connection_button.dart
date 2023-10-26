@@ -95,7 +95,7 @@ class _ConnectionButtonState extends State<ConnectionButton> with SingleTickerPr
             Icon(Icons.power_settings_new_rounded, size: 70, color: Theme.of(context).colorScheme.primary),
             Text(
               "CONNECTED",
-              style: Theme.of(context).textTheme.caption!.copyWith(color: Theme.of(context).colorScheme.primary, fontSize: 10, fontWeight: FontWeight.bold),
+              style: Theme.of(context).textTheme.bodySmall!.copyWith(color: Theme.of(context).colorScheme.primary, fontSize: 10, fontWeight: FontWeight.bold),
               textAlign: TextAlign.center,
             ),
           ],
@@ -148,7 +148,7 @@ class _ConnectionButtonState extends State<ConnectionButton> with SingleTickerPr
               ),
               Text(
                 stage.name.toUpperCase().replaceAll("_", " "),
-                style: Theme.of(context).textTheme.caption!.copyWith(color: Theme.of(context).colorScheme.secondary, fontSize: 8, fontWeight: FontWeight.bold),
+                style: Theme.of(context).textTheme.bodySmall!.copyWith(color: Theme.of(context).colorScheme.secondary, fontSize: 8, fontWeight: FontWeight.bold),
                 textAlign: TextAlign.center,
               ),
             ],
@@ -188,7 +188,7 @@ class _ConnectionButtonState extends State<ConnectionButton> with SingleTickerPr
             ),
             Text(
               "DISCONNECTED",
-              style: Theme.of(context).textTheme.caption!.copyWith(color: Colors.grey.withOpacity(.8), fontSize: 10, fontWeight: FontWeight.bold),
+              style: Theme.of(context).textTheme.bodySmall!.copyWith(color: Colors.grey.withOpacity(.8), fontSize: 10, fontWeight: FontWeight.bold),
               textAlign: TextAlign.center,
             ),
           ],
