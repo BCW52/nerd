@@ -1,39 +1,213 @@
 {
   "project_info": {
-      "project_number": "401791148998",
-      "project_id": "nerd-vpn-305cc",
-      "storage_bucket": "nerd-vpn-305cc.appspot.com"
+    "project_number": "364773316440",
+    "project_id": "hridoy-khan-rock",
+    "storage_bucket": "hridoy-khan-rock.appspot.com"
   },
-  "client": [{
+  "client": [
+    {
       "client_info": {
-          "mobilesdk_app_id": "1:401791148998:android:ed72d1d1c3cf3d231608c7",
-          "android_client_info": {
-              "package_name": "com.nerdvpn.vpn"
-          }
+        "mobilesdk_app_id": "1:364773316440:android:fd0fa1b6863deed375372d",
+        "android_client_info": {
+          "package_name": "com.early.vpnclient.android"
+        }
       },
-      "oauth_client": [{
-          "client_id": "401791148998-f5vtsrgv586ueuigce46l6pi5vooumo9.apps.googleusercontent.com",
+      "oauth_client": [
+        {
+          "client_id": "364773316440-qclbosl29pjkatvjt98i3832etnojd9s.apps.googleusercontent.com",
           "client_type": 3
-      }],
-      "api_key": [{
-          "current_key": "AIzaSyBJz8NUzYGYqI32ECHe-89JKCtlxiwAcCA"
-      }],
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc7n5JHM_Avm4c-ajTDshrFkM05vnpLlc"
+        }
+      ],
       "services": {
-          "appinvite_service": {
-              "other_platform_oauth_client": [{
-                      "client_id": "401791148998-f5vtsrgv586ueuigce46l6pi5vooumo9.apps.googleusercontent.com",
-                      "client_type": 3
-                  },
-                  {
-                      "client_id": "401791148998-3d2t1rr5v7ddf471f5o6nr1sqo6fj19e.apps.googleusercontent.com",
-                      "client_type": 2,
-                      "ios_info": {
-                          "bundle_id": "com.nerdvpn.app"
-                      }
-                  }
-              ]
-          }
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364773316440-qclbosl29pjkatvjt98i3832etnojd9s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
       }
-  }],
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364773316440:android:e5389d5af45d908775372d",
+        "android_client_info": {
+          "package_name": "com.kaizenvpn.vpn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364773316440-qclbosl29pjkatvjt98i3832etnojd9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc7n5JHM_Avm4c-ajTDshrFkM05vnpLlc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364773316440-qclbosl29pjkatvjt98i3832etnojd9s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364773316440:android:5ec8b3e224307e0b75372d",
+        "android_client_info": {
+          "package_name": "com.quickspace.vpnclient.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364773316440-qclbosl29pjkatvjt98i3832etnojd9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc7n5JHM_Avm4c-ajTDshrFkM05vnpLlc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364773316440-qclbosl29pjkatvjt98i3832etnojd9s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364773316440:android:c8328170e27de41775372d",
+        "android_client_info": {
+          "package_name": "com.saralmon.quickalarm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364773316440-qclbosl29pjkatvjt98i3832etnojd9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc7n5JHM_Avm4c-ajTDshrFkM05vnpLlc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364773316440-qclbosl29pjkatvjt98i3832etnojd9s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364773316440:android:fa2e940b97833d5975372d",
+        "android_client_info": {
+          "package_name": "com.saralmon.wallpaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364773316440-qclbosl29pjkatvjt98i3832etnojd9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc7n5JHM_Avm4c-ajTDshrFkM05vnpLlc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364773316440-qclbosl29pjkatvjt98i3832etnojd9s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364773316440:android:fe3a37c425fcb85575372d",
+        "android_client_info": {
+          "package_name": "com.sujoncreation.wirevpn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364773316440-qclbosl29pjkatvjt98i3832etnojd9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc7n5JHM_Avm4c-ajTDshrFkM05vnpLlc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364773316440-qclbosl29pjkatvjt98i3832etnojd9s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364773316440:android:97266d2ad587ae6c75372d",
+        "android_client_info": {
+          "package_name": "sujoncreation.wirevpn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364773316440-qclbosl29pjkatvjt98i3832etnojd9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc7n5JHM_Avm4c-ajTDshrFkM05vnpLlc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364773316440-qclbosl29pjkatvjt98i3832etnojd9s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
   "configuration_version": "1"
 }
