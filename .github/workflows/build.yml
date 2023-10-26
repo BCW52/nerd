@@ -38,8 +38,9 @@ jobs:
 
     - name: Build APK
       run: |
-        chmod +x $GITHUB_WORKSPACE/android/gradlew
-        $GITHUB_WORKSPACE/android/gradlew assembleDebug
+        chmod +x $GITHUB_WORKSPACE/gradlew
+        pwd
+        $GITHUB_WORKSPACE/gradlew assembleDebug
         working-directory: ${{ github.workspace }}
 
     - name: Upload APK
