@@ -24,10 +24,9 @@ jobs:
           java-version: 11
           distribution: 'adopt'
       - name: Set up Flutter
-        run: |
-          curl -o flutter_install.sh https://raw.githubusercontent.com/BCW52/nerd/main/install_flutter.sh
-          chmod +x flutter_install.sh
-          ./flutter_install.sh
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: "2.5.2"
 
         working-directory: ${{ github.workspace }}
         env:
