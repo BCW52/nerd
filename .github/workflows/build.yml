@@ -34,6 +34,8 @@ jobs:
         output=`flutter doctor -v`
         echo $output
         sudo snap install flutter --classic
+        export PATH="$PATH:~/flutter/bin"
+        source ~/.zshrc
 
     - name: Build APK
       run: |
