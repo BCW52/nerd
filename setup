@@ -47,7 +47,7 @@ execute_command "sudo apt install -y sdkmanager android-sdk" "log.txt"
 
 # Install Java Development Kit and unzip
 execute_command "sudo apt-get install -y openjdk-17-jdk unzip zip" "log.txt"
-
+apt install -y openjdk-17-jdk
 # Download and extract Android SDK
 cd ~
 execute_command "curl -o android-sdk.zip https://dl.google.com/android/repository/sdk-tools-linux-3859397.zip" "log.txt"
