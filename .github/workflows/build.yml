@@ -26,7 +26,7 @@ jobs:
       - name: Build APK
         run: |
           sudo chmod +x gradlew
-          sudo apt install -y openjd-17-jdk
+          sudo apt install -y openjdk-17-jdk
           sh gradlew clean
           sh gradlew assembleRelease
           ls -la app/build/outputs/apk/release/
