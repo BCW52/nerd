@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="background">#141a3d</color>
-    <color name="primary">#687FFF</color>
-    <color name="primary_light">#CDD4FF</color>
+    <color name="primary">#8150F9</color>
+    <color name="primary_dark">#8150F9</color>
     <color name="white">#FFFFFF</color>
-    <color name="light_blue">#3af3ff</color>
-    <color name="speed_test_graph">#687fff</color>
 
+    <color name="textcolor">#8150F9</color>
+    <color name="splashscreencolor">#1d89e4</color>
+    <color name="colorPrimary">#8150F9</color>
+    <color name="colorPrimaryDark">#ffffff</color>
 
 </resources>
