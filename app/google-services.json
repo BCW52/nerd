@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "571950340619",
+    "firebase_url": "https://indrak-vpn.firebaseio.com",
+    "project_id": "indrak-vpn",
+    "storage_bucket": "indrak-vpn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571950340619:android:9dcc285c7afddb80cbc50e",
+        "android_client_info": {
+          "package_name": "com.inapp.vpn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "571950340619-brcg2b2j2n0cagqa4dikrcgsns5tgddv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFhwsC3VBsx0IO2444HejDVSuocM-7g3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "571950340619-brcg2b2j2n0cagqa4dikrcgsns5tgddv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
