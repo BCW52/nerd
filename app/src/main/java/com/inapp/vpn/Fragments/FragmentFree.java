@@ -156,11 +156,11 @@ public class FragmentFree extends Fragment implements ServerListAdapterFree.Regi
             JSONArray jsonArray = new JSONArray(Constants.FREE_SERVERS);
             for (int i=0; i < jsonArray.length();i++){
                 JSONObject object = (JSONObject) jsonArray.get(i);
-                servers.add(new Countries(object.getString("serverName"),
+                servers.add(new Countries(object.getString("France"),
                         object.getString("flag_url"),
-                        object.getString("ovpnConfiguration"),
-                        object.getString("vpnUserName"),
-                        object.getString("vpnPassword")
+                        object.getString("tcp.ovpn"),
+                        object.getString("vpnbook"),
+                        object.getString("b7dh4n3")
                 ));
 
                 if((i % 2 == 0)&&(i > 0)){

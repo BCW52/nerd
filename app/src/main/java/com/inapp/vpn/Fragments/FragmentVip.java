@@ -141,11 +141,11 @@ public class FragmentVip extends Fragment {
 
             for (int i=0; i < jsonArray.length();i++){
                 JSONObject object = (JSONObject) jsonArray.get(i);
-                servers.add(new Countries(object.getString("serverName"),
+                servers.add(new Countries(object.getString("France"),
                         object.getString("flag_url"),
-                        object.getString("ovpnConfiguration"),
-                        object.getString("vpnUserName"),
-                        object.getString("vpnPassword")
+                        object.getString("udp.ovpn"),
+                        object.getString("vpnbook"),
+                        object.getString("b7dh4n3")
                 ));
             }
         } catch (JSONException e) {
